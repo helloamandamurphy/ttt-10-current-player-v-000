@@ -1,4 +1,3 @@
-
 #turn_count
 def turn_count(board)
   spaces_taken = 0
@@ -9,3 +8,4 @@ end
 end
 spaces_taken
 end
+
