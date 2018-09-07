@@ -8,6 +8,3 @@ end
 end
 spaces_taken
 end
-
-def current_player
-  if spaces_taken 
