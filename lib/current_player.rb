@@ -1,7 +1,7 @@
 
 #turn_count
 def turn_count(board)
-  board.each do |box|
+  board.each do |space|
 end
 
 #current_player
