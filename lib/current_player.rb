@@ -10,7 +10,7 @@ spaces_taken
 end
 
 def current_player
-  if spaces_taken % 2 = 0 
+  if spaces_taken % 2 == 0 
     puts "O"
   else
     puts "X"
