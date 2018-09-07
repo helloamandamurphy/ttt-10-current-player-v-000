@@ -10,9 +10,9 @@ spaces_taken
 end
 
 def current_player
-  if spaces_taken % 2 == 0 
-    puts "X"
-  else
+  if turn_count(board) % 2 == 0 
     puts "O"
+  else
+    puts "X"
   end
 end
